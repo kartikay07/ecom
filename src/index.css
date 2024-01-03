@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+table {
+  width: 800px;
+  height: 200px;
+  border-collapse: collapse;
+}
+
+th {
+  border-bottom: 1px solid darkblue;
+  border: 2px solid darkblue;
+  background-color: grey;
+}
+
+td {
+  text-align: center;
+  border: 2px solid darkblue;
+}
+button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }

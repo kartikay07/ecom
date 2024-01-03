@@ -1,5 +1,12 @@
 import {Link} from "react-router-dom"
+import { useState } from "react";
+
+
 const Product = (props) => {
+  
+  
+ 
+
     const { id, title, price, images } = props.data;
     return(
         <div class="col-sm-3">
@@ -14,6 +21,7 @@ const Product = (props) => {
               <Link to={'/products/detail/'+ id} class="btn btn-primary btn-block">
                 Show Detail
               </Link>
+              
             </div>
           </div>
         </div>

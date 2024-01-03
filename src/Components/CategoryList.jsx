@@ -8,7 +8,7 @@ export default function Categorylist() {
     const fetchData = () => {
         axios.get(Endpoints.CATEGORY_URL)
             .then(response => {
-                console.log('hello')
+                
                 setCategories(response.data)
             })
             .catch(error => console.log(error))
